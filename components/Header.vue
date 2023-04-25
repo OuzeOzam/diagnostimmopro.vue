@@ -1,19 +1,23 @@
 <template>
-    <div class="flex justify-between items-center">
+    <div class="flex justify-between items-center border-b-2 border-red-500">
         <div class="p-3">
-            <a href="/">
-                <img 
-                    class="w-8" 
-                    src="~/assets/images/logo.png" 
-                    alt="Logo retour menu"
-                >
-            </a>
+            <NavigationLogo />
         </div>
         <div class="hidden sm:block">
-            <NavBar />
+            <NavigationLarge />
         </div>
         <div class="sm:hidden">
-            <BurgerMenu />
+            <NavigationMobile />
         </div>
     </div>
+    <v-btn color="primary specialBTN bg-miel">Button</v-btn>
 </template>
+<!-- <style lang="sass">
+
+body
+    @apply bg-red-500
+
+.specialBTN
+    @apply lowercase
+
+</style> -->

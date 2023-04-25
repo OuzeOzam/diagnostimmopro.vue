@@ -9,6 +9,17 @@ export default defineNuxtConfig({
         /* vuetify options */
         vuetifyOptions: {
           // @TODO: list all vuetify options
+          theme: {
+            defaultTheme: 'myCustomTheme',
+            themes: {
+              myCustomTheme: {
+                colors: {
+                  primary: '#FFC400',
+                  miel: "EC407A"
+                }
+              }
+            }
+          },
         },
         moduleOptions: {
           /* nuxt-vuetify module options */
@@ -18,5 +29,8 @@ export default defineNuxtConfig({
           styles: 'sass',
           autoImport: true,
         }
+    },
+    tailwindcss: {
+      configPath: '~/config/tailwind.js'
     }
 })
