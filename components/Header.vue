@@ -1,23 +1,11 @@
 <template>
-    <div class="flex justify-between items-center border-b-2 border-red-500">
-        <div class="p-3">
-            <NavigationLogo />
+    <div class="flex justify-between items-center bg-light-300 border-b-[1px] border-grey-400 py-1 sticky top-0">
+        <div class="flex justify-between items-center">
+            <NavigationLogo class="pl-4"/>
+            <NavigationLarge class="hidden md:flex"/>
         </div>
-        <div class="hidden sm:block">
-            <NavigationLarge />
-        </div>
-        <div class="sm:hidden">
+        <div class="md:hidden">
             <NavigationMobile />
         </div>
     </div>
-    <v-btn color="primary specialBTN bg-miel">Button</v-btn>
 </template>
-<!-- <style lang="sass">
-
-body
-    @apply bg-red-500
-
-.specialBTN
-    @apply lowercase
-
-</style> -->

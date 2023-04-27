@@ -1,6 +1,6 @@
 <template>
     <div>
-        
+        <h1>Quotation</h1>
     </div>
 </template>
 <script lang="ts">
