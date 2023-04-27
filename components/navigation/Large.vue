@@ -1,5 +1,5 @@
 <template>
     <nav class="flex justify-between items-center ">
-        <NavItems />
+        <NavigationItemsGlobal />
     </nav>
 </template>
