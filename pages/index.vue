@@ -1,39 +1,21 @@
 <template>
-  <div class="section z-10">
-    <div class="text-center	">
-      <span>diagnostimmopro.com</span>
-    </div>
-    <div class="pt-2.5 pb-5">
-      <h1 class="font-['Merriweather'] font-black text-4xl leading-[2.828rem] text-center">Le meilleur service de
-        diagnostic immobilier, <span class="text-lemon">au meilleur prix</span>.</h1>
-    </div>
-    <div class="flex flex-col justify-center align-center pb-8 gap-2">
-      <div class="flex flex-start items-center gap-2.5">
-        <Icon name="mdi:clipboard-check" size="1.3125em" class="text-primary min-w-[1.3125em]" />
-        <p>Profitez d’un service <span class="font-bold">humain</span> et <span class="font-bold">réactif</span>. Nous
-          répondons à toutes vos questions.</p>
-      </div>
-      <div class="flex flex-start items-center gap-2.5">
-        <Icon name="mdi:clipboard-check" size="1.3125em" class="text-primary min-w-[1.3125em]" />
-        <p>Votre devis de <span class="font-bold">diagnostic sur mesure</span> vous est <span class="font-bold">envoyé
-            dans la journée</span> !</p>
-      </div>
-      <div class="flex flex-start items-center gap-2.5">
-        <Icon name="mdi:clipboard-check" size="1.3125em" class="text-primary min-w-[1.3125em]" />
-        <p>Vos diagnostics sont réalisés par des <span class="font-bold">professionnels certifiés et expérimentés</span>.
-        </p>
-      </div>
-    </div>
-    <div class="flex flex-col justify-center items-center gap-1 pb-5">
-      <ButtonGradient to="/quotation">Obtenir mon devis</ButtonGradient>
-      <p class="text-sm">C’est gratuit ! Et vous le recevez dans la journée.</p>
-    </div>
-    <div class="flex flex-col justify-center items-center gap-1">
-      <ButtonSecondary to="/quotation">Appelez-nous</ButtonSecondary>
-      <p class="text-sm">C’est gratuit ! Et vous le recevez dans la journée.</p>
-    </div>
-  </div>
-  <div class="-mt-36 -z-10 relative">
-      <img src="~/assets/images/phone_man.png" alt="Un homme commande un diagnostic immobilier sur son téléphone">
-  </div>
+  <SectionIndexHeader />
+  <Review>
+    <template v-slot:avatar>
+      <img class="w-12 h-12" src="~/assets/images/reviews/Ayde.webp" alt="Photo de profil de Ayde">
+    </template>
+    <template v-slot:name>Test</template>
+    <template v-slot:reviewText>Mon propriétaire m'a demandé de faire cette rendez vous en raison de mon
+      déménagement. Cependant, c'était un plaisir
+      D'avoir les techniciens dans mon appartement. Ils étaient si positifs et si gentils. Il y avait un technicien en
+      Formation lors de notre visite : c'était intéressant et rassurant de voir le processus : ce qui est habituellement
+      Dans la tête du technicien était dit à haute voix : et leur expertise et leur sociabilité étaient
+      charmantes.
+    </template>
+    <template v-slot:button>
+      <ButtonSecondary href="https://goo.gl/maps/1vUjQ2CuZNfubY8K7" target="_blank" rel="noopener noreferrer">
+        Voir l'avis
+      </ButtonSecondary>
+    </template>
+  </Review>
 </template>
