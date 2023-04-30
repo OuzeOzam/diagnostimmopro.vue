@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Merriweather:wght@300;400;700;900&display=swap');
 
-body {
-    background-color: #FEF9EE;
-}
-
-.section {
-    padding: 25px 20px;
-}
-
 .text-lemon {
     background: linear-gradient(87.29deg, #FFC400 -16.11%, #96BD31 53.46%, #31A761 117.46%);
     -webkit-background-clip: text;

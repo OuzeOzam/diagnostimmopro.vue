@@ -1,8 +1,8 @@
 <template>
-  <div class="flex flex-col flex-start gap-5">
+  <div class="flex flex-col flex-start gap-5 p-5">
     <div class="flex flex-start gap-4">
       <slot name="avatar"></slot>
-      <div class="flex flex-col flex-start">
+      <div class="flex flex-col flex-start gap-1">
         <p class="font-bold">
           <slot name="name"></slot>
         </p>
@@ -16,18 +16,10 @@
       </div>
     </div>
     <div class="flex items-center">
-      <p class="text-sm normal-case line-clamp-3">
+      <p class="text-base normal-case line-clamp-3 pl-1">
         <slot name="reviewText"></slot>
       </p>
     </div>
     <slot name="button"></slot>
-  </div>
-  <div class="flex flex-col justify-center align-center gap-2.5">
-    <ButtonTertiary>
-      <Icon name="mdi:message-plus" size="1.3125em" class="mr-2.5" />Donnez votre avis
-    </ButtonTertiary>
-    <ButtonTertiary>
-      <Icon name="mdi:eye" size="1.3125em" class="mr-2.5" />Voir tous les avis
-    </ButtonTertiary>
   </div>
 </template>
