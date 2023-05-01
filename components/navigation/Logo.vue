@@ -1,5 +1,5 @@
 <template>
     <a href="/">
-        <img class="w-8" src="~/assets/images/logo.png" alt="Logo retour menu">
+        <nuxt-img class="w-8" src="/logo.webp" alt="Logo retour menu" provider="cloudinary"/>
     </a>
 </template>

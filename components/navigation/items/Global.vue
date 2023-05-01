@@ -50,7 +50,7 @@
   </div> -->
 
   <div class="md:hidden h-auto fixed w-full grid gap-3 p-6 bottom-0 left-0">
-    <ButtonBlockPrimary to="/reviews" class="text-white">Appelez-nous</ButtonBlockPrimary>
+    <ButtonBlockPrimary to="tel:+33660393750" class="text-white">Appelez-nous</ButtonBlockPrimary>
     <ButtonBlockSecondary to="/quotation">Obtenir mon devis</ButtonBlockSecondary>
   </div>
   </div>
