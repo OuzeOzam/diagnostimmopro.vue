@@ -13,6 +13,6 @@
     </ButtonSecondary>
   </div>
   <div class="-mt-20 -z-10 relative">
-    <img src="~/assets/images/lady-thinking.webp") alt="Une femme souriant à l'idée de nous contacter">
+    <nuxt-img src="/lady-thinking.webp" alt="Une femme souriant à l'idée de nous contacter" provider="cloudinary" />
   </div>
 </template>

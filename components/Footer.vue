@@ -1,9 +1,10 @@
 <template>
     <div class="bg-light-100 flex flex-col justify-center items-center">
         <div class="flex flex-col justify-center items-center py-10 px-5 gap-16">
-            <img class="w-[35px]" src="~/assets/images/logo.webp") alt="Logo diagnostimmopro">
+            <nuxt-img class="w-[35px]" src="/logo.webp" provider="cloudinary"
+                alt="Logo diagnostimmopro"/>
             <div v-for="link in links" class="flex flex-col justify-center items-center gap-3">
-                <h3 class="text-xl font-bold">{{link.h3}}</h3>
+                <h3 class="text-xl font-bold">{{ link.h3 }}</h3>
                 <ul v-for="aItem in link.a">
                     <li>
                         <NuxtLink :to="aItem.path">{{ aItem.text }}</NuxtLink>
@@ -14,13 +15,12 @@
                 <ul v-for="social in socials">
                     <li>
                         <NuxtLink :to="social.src" class="flex items-center gap-2">
-                            <img :src="social.path" :alt="social.alt" class="w-8">
+                            <nuxt-img :src="social.path" :alt="social.alt" class="w-8" provider="cloudinary"/>
                             {{ social.text }}
                         </NuxtLink>
                     </li>
                 </ul>
             </div>
-            
         </div>
     </div>
     <div class="flex items-center justify-center p-2.5 gap-2.5 bg-primary">
@@ -110,19 +110,19 @@ export default {
         ],
         socials: [
             {
-                path: require("@/assets/images/social/facebook.webp"),
+                path: "/social/facebook.webp",
                 text: "@dignostimmopro",
                 src: "https://facebook.com",
                 alt: 'logo facebook'
             },
             {
-                path: require("@/assets/images/social/instagram.webp"),
+                path: "/social/instagram.webp",
                 text: "@dignostimmopro",
                 src: "https://instagram.com",
                 alt: 'logo instagram'
             },
             {
-                path: require("@/assets/images/social/whatsapp.webp"),
+                path: "/social/whatsapp.webp",
                 text: "+33(0)677554433",
                 src: "https://whatsapp.com",
                 alt: 'logo whatsapp'

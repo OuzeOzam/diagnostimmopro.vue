@@ -31,6 +31,6 @@
     </div>
   </div>
   <div class="-mt-36 -z-10 relative">
-    <img src="~/assets/images/phone_man.webp") alt="Un homme commande un diagnostic immobilier sur son téléphone">
+    <nuxt-img src="/phone_man.webp" alt="Un homme commande un diagnostic immobilier sur son téléphone" provider="cloudinary" />
   </div>
 </template>

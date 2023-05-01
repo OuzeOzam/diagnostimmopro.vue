@@ -4,7 +4,8 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
     '@invictus.codes/nuxt-vuetify',
-    'nuxt-icon'
+    'nuxt-icon',
+    '@nuxt/image-edge',
   ],
   vuetify: {
     /* vuetify options */
@@ -41,5 +42,10 @@ export default defineNuxtConfig({
   },
   css: [
     '@/assets/css/global.css'
-  ]
+  ],
+  image: {
+    cloudinary: {
+      baseURL: 'https://res.cloudinary.com/dj5fs1uis/image/upload/v1682718006/'
+    }
+  }
 })
