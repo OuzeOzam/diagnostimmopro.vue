@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-light-100">
+  <div class="section bg-light-100">
     <GReviewsCarousel />
     <GReviewsButtons />
   </div>

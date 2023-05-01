@@ -1,13 +1,13 @@
 <template>
-  <div class="section">
+  <div class="section pt-5">
     <div class="text-center text-lg">
       <span>diagnostimmopro.com</span>
     </div>
     <div class="pt-2.5 pb-5">
-      <h1 class="font-['Merriweather'] font-black text-4xl leading-[2.828rem] text-center">Le meilleur service de
+      <h1 class="text-center">Le meilleur service de
         diagnostic immobilier, <span class="text-lemon">au meilleur prix</span>.</h1>
     </div>
-    <div class="flex flex-col justify-center align-center pb-8 gap-2">
+    <div class="flex flex-col justify-center align-center gap-2 pb-5">
       <MoleculesIconText>
         <p>Profitez d’un service <span class="font-bold">humain</span> et <span class="font-bold">réactif</span>. Nous
           répondons à toutes vos questions.</p>
@@ -21,7 +21,7 @@
         </p>
       </MoleculesIconText>
     </div>
-    <div class="flex flex-col justify-center items-center gap-1 pb-5">
+    <div class="flex flex-col justify-center items-center gap-1">
       <ButtonGradient to="/quotation">Obtenir mon devis</ButtonGradient>
       <p class="text-base">C’est gratuit ! Et vous le recevez dans la journée.</p>
     </div>

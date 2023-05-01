@@ -4,12 +4,15 @@
       <p class="items-center text-center">Fin du formulaire</p>
     </div>
     <div class="flex justify-center items-center mt-8">
-      <h3 class="font-[Merriweather] font-black text-[54px] leading-[58px]  items-center text-center">Votre devis est en cours de traitement
+      <h3 class="font-[Merriweather] font-black text-[54px] leading-[58px]  items-center text-center">
+        Votre demande est&#160;en cours&#160;de traitement
       </h3>
     </div>
     <div class="flex flex-start mt-5">
-      <p class="items-center text-center ">Merci de nous avoir contacté pour votre projet. Un expert s’occupe déjà de
-        votre demande, vous recevrez un devis sous 24H.</p>
+      <p class="items-center text-center ">
+        Merci de nous avoir contacté pour votre projet. Un expert s’occupe déjà de
+        votre demande, vous la recevrez sous 24H.
+      </p>
     </div>
   </div>
   <div class="-mt-10 ">
