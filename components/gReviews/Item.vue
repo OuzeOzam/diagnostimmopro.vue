@@ -16,7 +16,7 @@
       </div>
     </div>
     <div class="flex items-center">
-      <p class="text-base normal-case line-clamp-3 pl-1">
+      <p class="text-base text-dark-600 normal-case line-clamp-3 pl-1">
         <slot name="reviewText"></slot>
       </p>
     </div>
