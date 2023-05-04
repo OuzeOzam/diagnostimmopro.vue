@@ -1,11 +1,11 @@
 <template>
   <div class="section bg-dark-600">
-    <h2 class="text-center text-light-300">Comment ça marche&#160;?</h2>
+    <h2 class="text-light-300">Comment ça marche&#160;?</h2>
     <div v-for="item in items" class="flex flex-col items-start pb-5 gap-6">
       <div class="flex flex-col justify-center items-center gap-5">
         <nuxt-img :src="item.path" :alt="item.alt" provider="cloudinary"/>
-        <h3 class="text-center text-xl font-bold">{{ item.title }}</h3>
-        <p class="text-center text-light-300">{{ item.text }}</p>
+        <h3 class="text-xl font-bold">{{ item.title }}</h3>
+        <p class="text-light-300">{{ item.text }}</p>
       </div>
     </div>
     <div class="flex flex-col justify-center items-center gap-1">

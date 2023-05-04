@@ -4,7 +4,7 @@
             <nuxt-img class="w-[35px]" src="/logo.webp" provider="cloudinary"
                 alt="Logo diagnostimmopro"/>
             <div v-for="link in links" class="flex flex-col justify-center items-center gap-3">
-                <h3 class="text-xl font-bold">{{ link.h3 }}</h3>
+                <h3 class="text-xl font-bold text-center">{{ link.h3 }}</h3>
                 <ul v-for="aItem in link.a">
                     <li>
                         <NuxtLink :to="aItem.path">{{ aItem.text }}</NuxtLink>
@@ -45,27 +45,27 @@ export default {
                     },
                     {
                         text: "Nos diagnostiqueurs",
-                        path: "/diagnostics/mandatory"
+                        path: "/diagnostics/ourDiagnostician"
                     },
                     {
                         text: "L’audit énergétique",
-                        path: "/diagnostics/mandatory"
+                        path: "/diagnostics/energeticAudience"
                     },
                     {
                         text: "Comment ça marche ?",
-                        path: "/diagnostics/mandatory"
+                        path: "/howItWorks"
                     },
                     {
                         text: "Avis clients",
-                        path: "/diagnostics/mandatory"
+                        path: "/reviews"
                     },
                     {
                         text: "Nous contacter par e-mail",
-                        path: "/diagnostics/mandatory"
+                        path: "/contact/contactUs"
                     },
                     {
                         text: "Vous faire rappeler",
-                        path: "/diagnostics/mandatory"
+                        path: "/contact/callUBack"
                     },
                     {
                         text: "Appelez-nous",
@@ -73,7 +73,7 @@ export default {
                     },
                     {
                         text: "Obtenir mon devis",
-                        path: "/diagnostics/mandatory"
+                        path: "/quotation"
                     }
                 ]
             },

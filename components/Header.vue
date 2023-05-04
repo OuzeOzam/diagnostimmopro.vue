@@ -4,7 +4,7 @@
             <NavigationLogo class="pl-4"/>
             <NavigationLarge class="hidden md:flex"/>
         </div>
-        <div class="md:hidden">
+        <div class="md:hidden text-left">
             <NavigationMobile />
         </div>
     </div>

@@ -5,6 +5,7 @@
               items-center
               px-6
               rounded-md
+              py-4
             ">
             <slot />
         </button>

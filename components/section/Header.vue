@@ -1,15 +1,15 @@
 <template>
-  <div class="section pt-5">
+  <div class="section">
     <div class="text-center text-lg">
       <span>diagnostimmopro.com</span>
     </div>
-    <div class="pt-2.5 pb-5">
+    <div>
       <h1 class="text-center">
         <slot name="header"></slot>
       </h1>
     </div>
-    <div class="flex flex-col justify-center align-center gap-2 pb-5">
-      <slot name="subtitle"></slot>
+    <div class="flex flex-col justify-center align-center gap-2 text-center">
+      <p class="text-lg"><slot name="subtitle"></slot></p>
     </div>
     <div class="flex flex-col justify-center items-center gap-1 w-full">
       <ButtonBlockLemon to="/quotation">
@@ -28,7 +28,7 @@
       </p>
     </div>
   </div>
-  <div class="-mt-36 -z-10 relative">
+  <div class="flex justify-center -mt-36 -z-10 relative">
     <slot name="image"></slot>
   </div>
 </template>
