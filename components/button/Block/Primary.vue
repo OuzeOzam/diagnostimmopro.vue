@@ -5,6 +5,7 @@
         leading-5
         text-red-50
         w-full
+      lg:w-max
         ">
         <ButtonGlobal class="bg-primary  text-dark-600 w-full">
             <slot />

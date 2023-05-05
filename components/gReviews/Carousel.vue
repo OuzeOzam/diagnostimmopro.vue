@@ -1,14 +1,33 @@
 <template>
-  <v-carousel color="dark-600" height="18em" hide-delimiter-background :show-arrows="false" cycle interval="6000">
+  <!-- <div class="lg:max-w-3xl">
+    <v-slide-group show-arrows>
+      <v-slide-group-item v-for="review in reviews">
+        <GReviewsItem>
+          <template v-slot:avatar>
+            <nuxt-img class="w-12 h-12" :src="review.img" alt="Photo de profil de Ayde" provider="cloudinary" />
+          </template>
+          <template v-slot:name>
+            {{ review.name }}
+          </template>
+          <template v-slot:reviewText>{{ review.text }}
+          </template>
+          <template v-slot:button>
+            <ButtonSecondary :href="review.link" target="_blank" rel="noopener noreferrer">
+              Voir l'avis complet
+            </ButtonSecondary>
+          </template>
+        </GReviewsItem>
+      </v-slide-group-item>
+    </v-slide-group>
+  </div> -->
+  <v-carousel color="dark-600" height="18em" hide-delimiter-background :show-arrows="false" interval="6000">
     <v-carousel-item v-for="review in reviews">
       <GReviewsItem>
         <template v-slot:avatar>
-          <nuxt-img class="w-12 h-12" :src="review.img" alt="Photo de profil de Ayde" provider="cloudinary"/>
+          <nuxt-img class="w-12 h-12" :src="review.img" alt="Photo de profil de Ayde" provider="cloudinary" />
         </template>
         <template v-slot:name>
-
           {{ review.name }}
-
         </template>
         <template v-slot:reviewText>{{ review.text }}
         </template>
