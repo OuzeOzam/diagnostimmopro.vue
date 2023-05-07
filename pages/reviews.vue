@@ -6,15 +6,19 @@
     <template v-slot:subtitle>
       Découvrez ce que nos clients disent de nos diagnostics immobiliers en parcourant nos avis.
     </template>
-    <template v-slot:firstButton>Obtenir mon devis</template>
-    <template v-slot:subFirstButton>C’est gratuit ! Et vous le recevez dans la journée.</template>
-    <template v-slot:secondButton>Appelez-nous</template>
-    <template v-slot:subSecondButton>Notre numéro : 06.60.39.37.50</template>
+    <template v-slot:firstButton>
+        <ButtonBlockLemon to="/quotation">Obtenir mon devis</ButtonBlockLemon>
+      </template>
+      <template v-slot:subFirstButton>C’est gratuit ! Et vous le recevez dans la journée.</template>
+      <template v-slot:secondButton>
+        <ButtonBlockSecondary to="tel:0660393750">Appelez-nous</ButtonBlockSecondary>
+      </template>
+      <template v-slot:subSecondButton>Notre numéro : 06.60.39.37.50</template>
     <template v-slot:image>
-      <nuxt-img class="mt-12" src="/funny-smiling.webp" alt="Un professionel faisant un signe que tout va pour le mieux" provider="cloudinary" />
+      <nuxt-img class="hero-image" src="/funny-smiling.webp" alt="Un professionel faisant un signe que tout va pour le mieux" provider="cloudinary" />
     </template>
   </SectionHeader>
-  <SectionReviews />
+  <div class="bg-light-100"><SectionReviews /></div>
   <SectionWantContactUs />
 </template>
 <script setup lang="ts">

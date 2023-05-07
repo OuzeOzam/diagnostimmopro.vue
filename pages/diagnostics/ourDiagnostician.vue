@@ -6,35 +6,45 @@
     <template v-slot:subtitle>
       Faites confiance à nos professionnels certifiés pour réaliser tous vos diagnostics immobiliers obligatoires.
     </template>
-    <template v-slot:firstButton>Obtenir mon devis</template>
+    <template v-slot:firstButton>
+      <ButtonBlockLemon to="/quotation">Obtenir mon devis</ButtonBlockLemon>
+    </template>
     <template v-slot:subFirstButton>C’est gratuit ! Et vous le recevez dans la journée.</template>
-    <template v-slot:secondButton>Appelez-nous</template>
+    <template v-slot:secondButton>
+      <ButtonBlockSecondary to="tel:0660393750">Appelez-nous</ButtonBlockSecondary>
+    </template>
     <template v-slot:subSecondButton>Notre numéro : 06.60.39.37.50</template>
     <template v-slot:image>
-      <nuxt-img src="/funny-smiling.webp" alt="Un homme commande un diagnostic immobilier sur son téléphone" class="mt-12"
-        provider="cloudinary" />
+      <nuxt-img src="/funny-smiling.webp" alt="Un homme commande un diagnostic immobilier sur son téléphone"
+        class="hero-image" provider="cloudinary" />
     </template>
   </SectionHeader>
-  <div class="section bg-grey-100" id="heightSaleSection">
-    <h2 class="text-dark-600">Les {{ total }} raisons pour lesquelles travailler avec nous.
-    </h2>
-    <v-carousel height="35em" hide-delimiter-background :show-arrows="false">
-      <v-carousel-item v-for="arg in args">
-        <Card class="lightCard mx-1">
-          <template v-slot:id>{{ arg.id }}</template>
-          <template v-slot:total>{{ total }}</template>
-          <template v-slot:title>{{ arg.title }}</template>
-          <template v-slot:text>{{ arg.text }}</template>
-        </Card>
-      </v-carousel-item>
-    </v-carousel>
-    <div class="flex flex-col justify-center items-center gap-1 w-full">
-      <ButtonBlockLemon to="/quotation">Obtenir mon devis</ButtonBlockLemon>
-      <p class="text-base text-center">C’est gratuit ! Et vous le recevez dans la journée.</p>
-    </div>
-    <div class="flex flex-col justify-center items-center gap-1 w-full">
-      <ButtonBlockSecondary to="tel:+33660393750">Appelez-nous pour être conseillé</ButtonBlockSecondary>
-      <p class="text-base text-center">Notre numéro : 06.60.39.37.50</p>
+  <div class="bg-grey-100">
+    <div class="contain">
+      <div class="section">
+        <div class="content" id="heightSaleSection">
+          <h2 class="text-dark-600 text-center lg:px-32">Les {{ total }} raisons pour lesquelles travailler avec nous.
+          </h2>
+          <v-carousel height="35em" hide-delimiter-background :show-arrows="false">
+            <v-carousel-item v-for="arg in args">
+              <Card class="lightCard max-w-lg mx-auto">
+                <template v-slot:id>{{ arg.id }}</template>
+                <template v-slot:total>{{ total }}</template>
+                <template v-slot:title>{{ arg.title }}</template>
+                <template v-slot:text>{{ arg.text }}</template>
+              </Card>
+            </v-carousel-item>
+          </v-carousel>
+          <div class="flex flex-col justify-center items-center gap-1 w-full">
+            <ButtonBlockLemon to="/quotation">Obtenir mon devis</ButtonBlockLemon>
+            <p class="text-base text-center">C’est gratuit ! Et vous le recevez dans la journée.</p>
+          </div>
+          <div class="flex flex-col justify-center items-center gap-1 w-full">
+            <ButtonBlockSecondary to="tel:+33660393750">Appelez-nous pour être conseillé</ButtonBlockSecondary>
+            <p class="text-base text-center">Notre numéro : 06.60.39.37.50</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <SectionReviews />

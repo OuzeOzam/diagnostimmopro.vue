@@ -1,6 +1,6 @@
 <template>
   <div class="overflow-y-scroll pb-[40vh]">
-    <div class="lg:flex justify-between items-center">
+    <div class="justify-between items-center">
       <v-list-item :ripple="false" class="pl-0 py-4" title="Accueil" to="/"></v-list-item>
     </div>
     <v-list class="py-2">
@@ -54,9 +54,9 @@
     </v-menu>
   </div> -->
 
-    <div class="h-auto fixed w-full grid gap-3 p-6 bottom-0 left-0">
-      <ButtonBlockPrimary to="tel:+33660393750" class="text-white">Appelez-nous</ButtonBlockPrimary>
-      <ButtonBlockSecondary to="/quotation">Obtenir mon devis</ButtonBlockSecondary>
+    <div class="bg-blur h-auto fixed w-full grid gap-3 p-6 bottom-0 left-0">
+      <ButtonBlockLemon to="/quotation">Obtenir mon devis</ButtonBlockLemon>
+      <ButtonBlockSecondary to="tel:+33660393750">Appelez-nous</ButtonBlockSecondary>
     </div>
   </div>
 

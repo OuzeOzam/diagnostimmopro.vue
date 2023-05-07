@@ -6,6 +6,7 @@
               px-6
               rounded-md
               py-4
+              lg:py-3.5
             ">
             <slot />
         </button>

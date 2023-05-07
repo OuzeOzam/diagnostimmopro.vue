@@ -7,7 +7,7 @@
         w-full
       lg:w-max
         ">
-        <ButtonGlobal class="bg-primary  text-dark-600 w-full">
+        <ButtonGlobal class="bg-primary  text-dark-600 w-full border-2 border-solid border-light-300">
             <slot />
         </ButtonGlobal>
     </NuxtLink>

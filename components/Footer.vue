@@ -1,34 +1,39 @@
 <template>
-    <div class="bg-light-100 flex flex-col justify-center items-center">
-        <div class="flex flex-col justify-center items-center py-10 px-5 gap-16">
-            <nuxt-img class="w-[35px]" src="/logo.webp" provider="cloudinary"
-                alt="Logo diagnostimmopro"/>
-            <div v-for="link in links" class="flex flex-col justify-center items-center gap-3">
-                <h3 class="text-xl font-bold text-center">{{ link.h3 }}</h3>
-                <ul v-for="aItem in link.a">
-                    <li>
-                        <NuxtLink :to="aItem.path">{{ aItem.text }}</NuxtLink>
-                    </li>
-                </ul>
-            </div>
-            <div class="flex flex-col justify-center items-center gap-3">
-                <ul v-for="social in socials">
-                    <li>
-                        <NuxtLink :to="social.src" class="flex items-center gap-2">
-                            <nuxt-img :src="social.path" :alt="social.alt" class="w-8" provider="cloudinary"/>
-                            {{ social.text }}
-                        </NuxtLink>
-                    </li>
-                </ul>
+    <div class="contain">
+        <div class="section">
+            <div class="content">
+                <div class="w-full flex flex-col lg:flex-row gap-8 lg:gap-5 justify-center items-center lg:items-start">
+                    <div class="lg:order-2 flex flex-col justify-center items-center lg:items-start gap-3 w-full">
+                        <nuxt-img class="w-[35px]" src="/logo.webp" provider="cloudinary" alt="Logo diagnostimmopro" />
+                        <ul v-for="social in socials">
+                            <li>
+                                <NuxtLink :to="social.src" class="text-base flex items-center gap-2">
+                                    <nuxt-img :src="social.path" :alt="social.alt" class="w-6" provider="cloudinary" />
+                                    {{ social.text }}
+                                </NuxtLink>
+                            </li>
+                        </ul>
+                    </div>
+                    <div v-for="link in links" class="w-full flex flex-col justify-center items-center lg:items-start gap-3">
+                        <div>
+                            <h3 class="text-lg font-bold w-full text-center">{{ link.h3 }}</h3>
+                        </div>
+                        <ul v-for="aItem in link.a">
+                            <li>
+                                <NuxtLink :to="aItem.path" class="text-base">{{ aItem.text }}</NuxtLink>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
             </div>
         </div>
     </div>
     <div class="flex items-center justify-center p-2.5 gap-2.5 bg-primary">
-        <p class="font-medium">© 2023 diagnostimmopro.com</p>
+        <p class="font-medium">© 2023 | diagnostimmopro.com</p>
     </div>
 </template>
 <script lang="ts">
-
 export default {
     data: () => ({
         links: [
@@ -58,18 +63,6 @@ export default {
                     {
                         text: "Avis clients",
                         path: "/reviews"
-                    },
-                    {
-                        text: "Nous contacter par e-mail",
-                        path: "/contact/contactUs"
-                    },
-                    {
-                        text: "Vous faire rappeler",
-                        path: "/contact/callUBack"
-                    },
-                    {
-                        text: "Appelez-nous",
-                        path: "tel:+33660393750"
                     },
                     {
                         text: "Obtenir mon devis",
@@ -104,7 +97,11 @@ export default {
                     {
                         text: "Vous faire rappeler",
                         path: "/contact/callUBack"
-                    }
+                    },
+                    {
+                        text: "Appelez-nous",
+                        path: "tel:+33660393750"
+                    },
                 ]
             }
         ],

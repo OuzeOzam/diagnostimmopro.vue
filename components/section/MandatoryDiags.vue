@@ -1,7 +1,7 @@
 <template>
-  <div class="container mx-auto">
-    <div class="flex flex-col justify-center lg:items-end lg:flex-row">
-      <div class="flex flex-col justify-center items-center w-full lg:items-start py-28 px-5 gap-5">
+  <div class="contain">
+    <div class="section">
+      <div class="content basis-8/12">
         <h2 class="text-dark-600">
           Quels sont les diagnostics immobiliers obligatoires&#160;?
         </h2>
@@ -16,4 +16,3 @@
     </div>
   </div>
 </template>
-  

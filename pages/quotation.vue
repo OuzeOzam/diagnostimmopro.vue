@@ -1,9 +1,15 @@
 <template>
-    <FormQuotationIFrame />
-    <div class="flex flex-col justify-center items-center gap-1 max-w-[752px] px-6 pb-10">
-        <ButtonBlockTertiary to="tel:+33660393750">Une question ? Contactez-nous</ButtonBlockTertiary>
-        <p class="text-base">Par téléphone au 06.60.39.37.50</p>
+  <div class="contain">
+    <div class="section">
+      <div class="content">
+        <FormQuotationIFrame />
+        <div class="flex flex-col justify-center items-center gap-1 w-full">
+          <ButtonBlockInline to="tel:+33660393750">Une question ? Contactez-nous</ButtonBlockInline>
+          <p class="text-base">Par téléphone au 06.60.39.37.50</p>
+        </div>
+      </div>
     </div>
+  </div>
 </template>
 <script setup lang="ts">
 const title = ref("Devis gratuit | Diagnotimmopro | Le meilleur service de diagnostic immobilier")
