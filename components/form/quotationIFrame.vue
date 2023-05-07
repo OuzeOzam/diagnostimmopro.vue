@@ -85,6 +85,6 @@
     <iframe id="JotFormIFrame-230733562747056" title="Formulaire" onload="window.parent.scrollTo(0,0)"
         allowtransparency="true" allowfullscreen="true" allow="geolocation; microphone; camera"
         src="https://form.jotform.com/230733562747056" frameborder="0"
-        style="min-width:100%;max-width:100%;height:460px;border:none; margin-bottom:-40px;" scrolling="no">
+        style="min-width:100%;max-width:100%;border:none; margin-bottom:-64px;" scrolling="no">
     </iframe>
 </template>

@@ -1,14 +1,12 @@
 <template>
-  <v-carousel color="dark-600" height="17em" hide-delimiter-background :show-arrows="false" cycle interval="6000">
+  <v-carousel color="dark-600" height="18em" hide-delimiter-background :show-arrows="false" interval="6000">
     <v-carousel-item v-for="review in reviews">
       <GReviewsItem>
         <template v-slot:avatar>
-          <nuxt-img class="w-12 h-12" :src="review.img" alt="Photo de profil de Ayde" provider="cloudinary"/>
+          <nuxt-img class="w-12 h-12" :src="review.img" alt="Photo de profil de Ayde" provider="cloudinary" />
         </template>
         <template v-slot:name>
-
           {{ review.name }}
-
         </template>
         <template v-slot:reviewText>{{ review.text }}
         </template>
@@ -32,7 +30,7 @@ export default {
         id: 1,
         name: `Ayde`,
         img: "/reviews/Ayde.webp",
-        text: `Mon propriétaire m'a demandé de faire cette rendez vous en raison de mon déménagement. Cependant, c'était un plaisir d'avoir les techniciens dans mon appartement. Ils étaient si positifs et si gentils. Il y avait un technicien en formation lors de notre visite : c'était intéressant et rassurant de voir le processus : ce qui est habituellement dans la tête du technicien était dit à haute voix : et leur expertise et leur sociabilité étaient charmantes.`,
+        text: `Mon propriétaire m'a demandé de faire ce rendez vous en raison de mon déménagement. Cependant, c'était un plaisir d'avoir les techniciens dans mon appartement. Ils étaient si positifs et si gentils. Il y avait un technicien en formation lors de notre visite : c'était intéressant et rassurant de voir le processus : ce qui est habituellement dans la tête du technicien était dit à haute voix : et leur expertise et leur sociabilité étaient charmantes.`,
         link: `https://goo.gl/maps/zoHudZr88asLSHu58`
       },
       {

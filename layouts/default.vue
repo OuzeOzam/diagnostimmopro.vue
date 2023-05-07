@@ -3,5 +3,7 @@
     <main>
         <slot />
     </main>
-    <Footer />
+    <div class="bg-light-100">
+        <Footer />
+    </div>
 </template>

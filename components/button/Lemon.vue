@@ -4,7 +4,7 @@
       text-lg
       leading-5
       ">
-      <ButtonGlobal class="bg-dark-600  text-light-300">
+      <ButtonGlobal class="bg-lemon text-dark-600">
           <slot />
       </ButtonGlobal>
   </NuxtLink>
