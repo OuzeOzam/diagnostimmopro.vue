@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://test.diagnostimmopro.com/</loc>
+  <lastmod>2023-05-07T01:36:26+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://test.diagnostimmopro.com/diagnostics/mandatory/</loc>
+  <lastmod>2023-05-07T01:36:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://test.diagnostimmopro.com/diagnostics/ourDiagnostician/</loc>
+  <lastmod>2023-05-07T01:36:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://test.diagnostimmopro.com/diagnostics/energeticAudience/</loc>
+  <lastmod>2023-05-07T01:36:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://test.diagnostimmopro.com/howItWorks/</loc>
+  <lastmod>2023-05-07T01:36:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://test.diagnostimmopro.com/reviews/</loc>
+  <lastmod>2023-05-07T01:36:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://test.diagnostimmopro.com/contact/contactUs/</loc>
+  <lastmod>2023-05-07T01:36:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://test.diagnostimmopro.com/contact/callUBack/</loc>
+  <lastmod>2023-05-07T01:36:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://test.diagnostimmopro.com/quotation/</loc>
+  <lastmod>2023-05-07T01:36:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://test.diagnostimmopro.com/mentions/legal/</loc>
+  <lastmod>2023-05-07T01:36:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://test.diagnostimmopro.com/mentions/cgu/</loc>
+  <lastmod>2023-05-07T01:36:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://test.diagnostimmopro.com/mentions/privacy/</loc>
+  <lastmod>2023-05-07T01:36:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>

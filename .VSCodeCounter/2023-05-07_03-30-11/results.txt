@@ -1,0 +1,116 @@
+Date : 2023-05-07 03:30:11
+Directory : /Users/ossamabenjemaa/Project/diagnostimmopro.vue
+Total : 60 files,  8042 codes, 41 comments, 871 blanks, all 8954 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| YAML               |          1 |      5,469 |          0 |        790 |      6,259 |
+| Vue                |         49 |      2,338 |         35 |         54 |      2,427 |
+| XML                |          4 |         97 |          0 |          4 |        101 |
+| TypeScript         |          1 |         46 |          5 |          1 |         52 |
+| JavaScript         |          1 |         29 |          0 |          2 |         31 |
+| Markdown           |          1 |         27 |          0 |         16 |         43 |
+| JSON               |          1 |         21 |          0 |          1 |         22 |
+| CSS                |          1 |         12 |          0 |          2 |         14 |
+| JSON with Comments |          1 |          3 |          1 |          1 |          5 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                            | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                               |         60 |      8,042 |         41 |        871 |      8,954 |
+| . (Files)                                                                                       |          6 |      5,595 |          6 |        820 |      6,421 |
+| assets                                                                                          |          4 |        109 |          0 |          5 |        114 |
+| assets/css                                                                                      |          1 |         12 |          0 |          2 |         14 |
+| assets/images                                                                                   |          3 |         97 |          0 |          3 |        100 |
+| components                                                                                      |         34 |      1,329 |         35 |         30 |      1,394 |
+| components (Files)                                                                              |          3 |        172 |          0 |          5 |        177 |
+| components/button                                                                               |         12 |        147 |          0 |          0 |        147 |
+| components/button (Files)                                                                       |          6 |         68 |          0 |          0 |         68 |
+| components/button/Block                                                                         |          6 |         79 |          0 |          0 |         79 |
+| components/form                                                                                 |          4 |        617 |          0 |          5 |        622 |
+| components/gReviews                                                                             |          3 |        118 |          0 |          5 |        123 |
+| components/molecules                                                                            |          1 |          6 |          0 |          0 |          6 |
+| components/navigation                                                                           |          6 |        126 |         31 |         11 |        168 |
+| components/navigation (Files)                                                                   |          3 |         73 |          2 |          1 |         76 |
+| components/navigation/items                                                                     |          3 |         53 |         29 |         10 |         92 |
+| components/section                                                                              |          5 |        143 |          4 |          4 |        151 |
+| config                                                                                          |          1 |         29 |          0 |          2 |         31 |
+| layouts                                                                                         |          1 |          9 |          0 |          0 |          9 |
+| pages                                                                                           |         13 |        971 |          0 |         13 |        984 |
+| pages (Files)                                                                                   |          5 |        238 |          0 |          5 |        243 |
+| pages/contact                                                                                   |          2 |         94 |          0 |          0 |         94 |
+| pages/diagnostics                                                                               |          3 |        573 |          0 |          7 |        580 |
+| pages/mentions                                                                                  |          3 |         66 |          0 |          1 |         67 |
+| public                                                                                          |          1 |          0 |          0 |          1 |          1 |
++-------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                                                        | language           | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/README.md                                     | Markdown           |         27 |          0 |         16 |         43 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/app.vue                                       | Vue                |         29 |          0 |         11 |         40 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/assets/css/global.css                         | CSS                |         12 |          0 |          2 |         14 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/assets/images/flying_paper.svg                | XML                |         34 |          0 |          1 |         35 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/assets/images/printer.svg                     | XML                |         24 |          0 |          1 |         25 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/assets/images/road.svg                        | XML                |         39 |          0 |          1 |         40 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/components/Card.vue                           | Vue                |         30 |          0 |          1 |         31 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/components/Footer.vue                         | Vue                |        129 |          0 |          2 |        131 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/components/Header.vue                         | Vue                |         13 |          0 |          2 |         15 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/components/button/Block/Forest.vue            | Vue                |         13 |          0 |          0 |         13 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/components/button/Block/Inline.vue            | Vue                |         13 |          0 |          0 |         13 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/components/button/Block/Lemon.vue             | Vue                |         13 |          0 |          0 |         13 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/components/button/Block/Primary.vue           | Vue                |         14 |          0 |          0 |         14 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/components/button/Block/Secondary.vue         | Vue                |         13 |          0 |          0 |         13 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/components/button/Block/Tertiary.vue          | Vue                |         13 |          0 |          0 |         13 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/components/button/Forest.vue                  | Vue                |         11 |          0 |          0 |         11 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/components/button/Global.vue                  | Vue                |         13 |          0 |          0 |         13 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/components/button/Lemon.vue                   | Vue                |         11 |          0 |          0 |         11 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/components/button/Primary.vue                 | Vue                |         11 |          0 |          0 |         11 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/components/button/Secondary.vue               | Vue                |         11 |          0 |          0 |         11 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/components/button/Tertiary.vue                | Vue                |         11 |          0 |          0 |         11 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/components/form/callBackIFrame.vue            | Vue                |         90 |          0 |          0 |         90 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/components/form/completeForme.vue             | Vue                |        347 |          0 |          5 |        352 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/components/form/contactFormeIFrame.vue        | Vue                |         90 |          0 |          0 |         90 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/components/form/quotationIFrame.vue           | Vue                |         90 |          0 |          0 |         90 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/components/gReviews/Buttons.vue               | Vue                |          8 |          0 |          0 |          8 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/components/gReviews/Carousel.vue              | Vue                |         85 |          0 |          5 |         90 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/components/gReviews/Item.vue                  | Vue                |         25 |          0 |          0 |         25 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/components/molecules/IconText.vue             | Vue                |          6 |          0 |          0 |          6 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/components/navigation/Large.vue               | Vue                |         44 |          0 |          0 |         44 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/components/navigation/Logo.vue                | Vue                |          5 |          0 |          0 |          5 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/components/navigation/Mobile.vue              | Vue                |         24 |          2 |          1 |         27 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/components/navigation/items/Contact.vue       | Vue                |          4 |          0 |          0 |          4 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/components/navigation/items/Diagnostician.vue | Vue                |          5 |          0 |          0 |          5 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/components/navigation/items/Global.vue        | Vue                |         44 |         29 |         10 |         83 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/components/section/Header.vue                 | Vue                |         38 |          0 |          0 |         38 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/components/section/HowItWorks.vue             | Vue                |         50 |          0 |          2 |         52 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/components/section/MandatoryDiags.vue         | Vue                |         18 |          0 |          0 |         18 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/components/section/Reviews.vue                | Vue                |         13 |          4 |          1 |         18 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/components/section/WantContactUs.vue          | Vue                |         24 |          0 |          1 |         25 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/config/tailwind.js                            | JavaScript         |         29 |          0 |          2 |         31 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/layouts/default.vue                           | Vue                |          9 |          0 |          0 |          9 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/nuxt.config.ts                                | TypeScript         |         46 |          5 |          1 |         52 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/package.json                                  | JSON               |         21 |          0 |          1 |         22 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/pages/contact/callUBack.vue                   | Vue                |         47 |          0 |          0 |         47 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/pages/contact/contactUs.vue                   | Vue                |         47 |          0 |          0 |         47 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/pages/diagnostics/energeticAudience.vue       | Vue                |         86 |          0 |          0 |         86 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/pages/diagnostics/mandatory.vue               | Vue                |        381 |          0 |          7 |        388 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/pages/diagnostics/ourDiagnostician.vue        | Vue                |        106 |          0 |          0 |        106 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/pages/howItWorks.vue                          | Vue                |         48 |          0 |          0 |         48 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/pages/index.vue                               | Vue                |         75 |          0 |          5 |         80 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/pages/mentions/cgu.vue                        | Vue                |         21 |          0 |          0 |         21 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/pages/mentions/legal.vue                      | Vue                |         24 |          0 |          1 |         25 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/pages/mentions/privacy.vue                    | Vue                |         21 |          0 |          0 |         21 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/pages/merci.vue                               | Vue                |         39 |          0 |          0 |         39 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/pages/quotation.vue                           | Vue                |         33 |          0 |          0 |         33 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/pages/reviews.vue                             | Vue                |         43 |          0 |          0 |         43 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/pnpm-lock.yaml                                | YAML               |      5,469 |          0 |        790 |      6,259 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/public/sitemap.xml                            | XML                |          0 |          0 |          1 |          1 |
+| /Users/ossamabenjemaa/Project/diagnostimmopro.vue/tsconfig.json                                 | JSON with Comments |          3 |          1 |          1 |          5 |
+| Total                                                                                           |                    |      8,042 |         41 |        871 |      8,954 |
++-------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+

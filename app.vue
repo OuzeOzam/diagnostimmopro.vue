@@ -26,7 +26,7 @@
   //   @apply lg:flex container mx-auto px-4
 
   .contain
-    @apply container sm:max-w-5xl 2xl:max-w-7xl mx-auto md:px-12
+    @apply container 2xl:max-w-7xl mx-auto md:px-12
 
   .section
     @apply flex flex-col justify-center lg:items-end lg:flex-row

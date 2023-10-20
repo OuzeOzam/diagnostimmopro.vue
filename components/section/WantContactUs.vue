@@ -18,7 +18,8 @@
         </div>
       </div>
       <div class="flex justify-center -mt-20 -z-10 relative w-full">
-        <nuxt-img src="/lady-thinking.webp" alt="Une femme souriant à l'idée de nous contacter" provider="cloudinary" />
+        <nuxt-img class="md:hidden" src="/people/professionnelle-des-diagnostics-immobiliers.webp" alt="Une femme souriant à l'idée de nous contacter" provider="cloudinary" />
+        <nuxt-img class="hidden md:block" src="/people/large/professionnelle-des-diagnostics-immobiliers.webp" alt="Une femme souriant à l'idée de nous contacter" provider="cloudinary" />
       </div>
     </div>
   </div>
