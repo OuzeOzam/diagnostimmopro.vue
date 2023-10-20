@@ -13,7 +13,8 @@
         <ButtonBlockSecondary to="tel:0660393750">Retourner à la page d'accueil</ButtonBlockSecondary>
       </template>
     <template v-slot:image>
-      <nuxt-img class="mt-12 object-fill w-full lg:absolute lg:max-w-2xl xl:max-w-4xl 2xl:max-w-7xl lg:bottom-0 lg:-right-0" src="/funny-smiling.webp" alt="Voiture qui voyage" provider="cloudinary" />
+      <nuxt-img class="md:hidden mt-12 object-fill w-full lg:absolute lg:max-w-2xl xl:max-w-4xl 2xl:max-w-7xl lg:bottom-0 lg:-right-0" src="/people/diagnostiqueur-professionnel-signalant-que-tout-est-ok.webp" alt="Voiture qui voyage" provider="cloudinary" />
+      <nuxt-img class="hidden md:block mt-12 object-fill w-full lg:absolute lg:max-w-2xl xl:max-w-4xl 2xl:max-w-7xl lg:bottom-0 lg:-right-0" src="/people/large/diagnostiqueur-professionnel-signalant-que-tout-est-ok.webp" alt="Voiture qui voyage" provider="cloudinary" />
     </template>
   </SectionHeader>
 </template>
@@ -33,7 +34,7 @@ useServerSeoMeta({
   ogDescription: description,
   ogUrl: 'https://diagnostimmopro.com',
   ogType: 'website',
-  ogImage: 'https://res.cloudinary.com/dj5fs1uis/image/upload/f_auto,q_auto/v1682718006/phone_man.webp',
+  ogImage: 'https://res.cloudinary.com/dj5fs1uis/image/upload/f_auto,q_auto/v1682718006/people/client-heureux-de-commander-ses-diagnostics-immobiliers.webp',
   twitterCard: 'summary_large_image',
 })
 </script>

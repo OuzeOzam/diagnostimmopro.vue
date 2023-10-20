@@ -31,7 +31,7 @@ export default {
         path: "/flying_paper.svg",
         alt: "Avion en papier qui s'envole",
         title: "Premier contact, devis et planification d’un RDV",
-        text: "Lors de notre premier contact, nos experts vous fournisse un devis en fonction de votre projet. Lorsque vous validez celui-ci, nous organisons un RDV avec les diagnostiqueur."
+        text: "Lors de notre premier contact, nos experts vous fournissent un devis en fonction de votre projet. Lorsque vous validez celui-ci, nous organisons un RDV avec les diagnostiqueur."
       },
       {
         path: "/roads.svg",
@@ -43,7 +43,7 @@ export default {
         path: "/printer.svg",
         alt: "Imprimante qui imprime un rapport",
         title: "Paiement et envoi du rapport d’expertise dans les délais",
-        text: "Suite à la réception de votre paiement, vous vous verrez recevoir votre rapport d’expertise réalisé par le diagnostiqueur."
+        text: "À réception de votre paiement, vos rapports de diagnostics immobiliers vous sont adressés par mail sous 24 heures en moyenne."
       },
     ]
   })

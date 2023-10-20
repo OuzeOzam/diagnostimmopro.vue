@@ -1,6 +1,6 @@
 <template>
   <div class="contain">
-    <div class="flex flex-col justify-start items-center lg:flex-row lg:h-[90vh]	">
+    <div class="flex flex-col justify-start items-center lg:flex-row relative">
       <div class="flex flex-col justify-center items-center w-full lg:items-start basis-6/12 py-8 px-5 gap-5">
         <div class="text-lg">
           <span>diagnostimmopro.com</span>

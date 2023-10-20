@@ -15,8 +15,8 @@
     </template>
     <template v-slot:subSecondButton>Notre numéro : 06.60.39.37.50</template>
     <template v-slot:image>
-      <nuxt-img src="/lady-shoulders.webp" alt="Un homme commande un diagnostic immobilier sur son téléphone"
-        provider="cloudinary" class="hero-image" />
+      <nuxt-img src="/people/cliente-se-posant-des-questions-sur-les-diagnostics-immobiliers.webp" alt="Un homme commande un diagnostic immobilier sur son téléphone" provider="cloudinary" class="md:hidden hero-image" />
+      <nuxt-img src="/people/large/cliente-se-posant-des-questions-sur-les-diagnostics-immobiliers.webp" alt="Un homme commande un diagnostic immobilier sur son téléphone" provider="cloudinary" class="hidden md:block hero-image" />
     </template>
   </SectionHeader>
   <div>
@@ -382,7 +382,7 @@ useServerSeoMeta({
   ogDescription: description,
   ogUrl: 'https://diagnostimmopro.com',
   ogType: 'website',
-  ogImage: 'https://res.cloudinary.com/dj5fs1uis/image/upload/f_auto,q_auto/v1682718006/phone_man.webp',
+  ogImage: 'https://res.cloudinary.com/dj5fs1uis/image/upload/f_auto,q_auto/v1682718006/people/client-heureux-de-commander-ses-diagnostics-immobiliers.webp',
   twitterCard: 'summary_large_image',
 })
 </script>

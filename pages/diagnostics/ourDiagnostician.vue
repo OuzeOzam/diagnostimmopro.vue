@@ -15,15 +15,19 @@
     </template>
     <template v-slot:subSecondButton>Notre numéro : 06.60.39.37.50</template>
     <template v-slot:image>
-      <nuxt-img src="/funny-smiling.webp" alt="Un homme commande un diagnostic immobilier sur son téléphone"
-        class="hero-image" provider="cloudinary" />
+      <nuxt-img src="/people/diagnostiqueur-professionnel-signalant-que-tout-est-ok.webp"
+        alt="Un homme commande un diagnostic immobilier sur son téléphone" class="md:hidden hero-image"
+        provider="cloudinary" />
+      <nuxt-img src="/people/large/diagnostiqueur-professionnel-signalant-que-tout-est-ok.webp"
+        alt="Un homme commande un diagnostic immobilier sur son téléphone" class="hidden md:block hero-image"
+        provider="cloudinary" />
     </template>
   </SectionHeader>
   <div class="bg-grey-100">
     <div class="contain">
       <div class="section">
         <div class="content" id="heightSaleSection">
-          <h2 class="text-dark-600 text-center lg:px-32">Les {{ total }} raisons pour lesquelles travailler avec nous.
+          <h2 class="text-dark-600 text-center lg:px-32">{{ total }} bonnes raisons de faire appel à nos services :
           </h2>
           <v-carousel height="35em" hide-delimiter-background :show-arrows="false">
             <v-carousel-item v-for="arg in args">
@@ -100,7 +104,7 @@ useServerSeoMeta({
   ogDescription: description,
   ogUrl: 'https://diagnostimmopro.com',
   ogType: 'website',
-  ogImage: 'https://res.cloudinary.com/dj5fs1uis/image/upload/f_auto,q_auto/v1682718006/phone_man.webp',
+  ogImage: 'https://res.cloudinary.com/dj5fs1uis/image/upload/f_auto,q_auto/v1682718006/people/client-heureux-de-commander-ses-diagnostics-immobiliers.webp',
   twitterCard: 'summary_large_image',
 })
 </script>

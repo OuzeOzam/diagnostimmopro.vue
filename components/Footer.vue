@@ -108,20 +108,20 @@ export default {
         socials: [
             {
                 path: "/social/facebook.webp",
-                text: "@dignostimmopro",
-                src: "https://facebook.com",
+                text: "@diagnostimmopro",
+                src: "https://www.facebook.com/DiagnostimmoPro",
                 alt: 'logo facebook'
             },
             {
                 path: "/social/instagram.webp",
-                text: "@dignostimmopro",
-                src: "https://instagram.com",
+                text: "@diagnostimmopro",
+                src: "https://www.instagram.com/diagnostimmopro/",
                 alt: 'logo instagram'
             },
             {
                 path: "/social/whatsapp.webp",
-                text: "+33(0)677554433",
-                src: "https://whatsapp.com",
+                text: "+33(0)66039375",
+                src: "https://wa.me/33660393750",
                 alt: 'logo whatsapp'
             }
         ]
